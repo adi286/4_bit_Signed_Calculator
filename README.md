@@ -1,0 +1,2 @@
+# 4_bit_Signed_Calculator
+The RTL and Schematic below is of 4-bit Signed Calculator. It requires 3 types of inputs such as: Two 4-bit operands One 2-bit Operator and 2-bits for Sign of both the operands. And it gives the Output for 16-bits.    The module  consists of 4 major modules:  > 8-bit Parallel Adder  > 8-bit Subtractor  > 8-bit Multiplier  > 8-bit Divider     For Ex:- Inputs: A=+14(1110), B= -4(0100), Operator- Division  Output: Quo- 11111101(-3) and Rem- 00000010(2)
